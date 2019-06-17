@@ -6,7 +6,7 @@ module RubyDanfe
       @xml = xml
       @pdf = Document.new
       @vol = 0
-      @teste = 'teste'
+      @teste = 'teste1'
     end
 
     def generatePDF
