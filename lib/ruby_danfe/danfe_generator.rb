@@ -1,10 +1,12 @@
 # coding: utf-8
 module RubyDanfe
   class DanfeGenerator
+    attr_reader :pdf, :teste
     def initialize(xml)
       @xml = xml
       @pdf = Document.new
       @vol = 0
+      @teste = 'teste'
     end
 
     def generatePDF
